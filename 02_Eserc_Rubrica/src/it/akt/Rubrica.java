@@ -2,12 +2,12 @@ package it.akt;
 
 public class Rubrica {
 
-	  public Contatto [] contatti;
-	  public int numeroContatti;
+	  private Contatto [] contatti;
+	  private int numeroContatti;
 	  
 	  public Rubrica (int Contatto) {
-		  contatti = new Contatto [4];
-		  numeroContatti = 0;
+		  contatti = new Contatto [10];		//inizializzo array
+		  numeroContatti = 0;				//inizializzo indice array
 	  }
 	
 	  public void aggiungiContatto(Contatto contatto) {
@@ -15,14 +15,14 @@ public class Rubrica {
 			  contatti [numeroContatti] = contatto;
 			  numeroContatti++;
 		  }else {
-			  System.out.println("Rubrica piena");
+			  System.out.println("Errore! non puoi aggiungere ulteriori contatti, la rubrica è piena");
 		  }
 	  }
 	
 	  public void stampaRubrica() {
 		  System.out.println("Rubrica:");
-		  for (Contatto c:contatti) {
-			  System.out.println(c.toString());
+		  for (Contatto c:contatti) {				//sintassi: tipo+nome:array
+			  System.out.println(c.toString());		//per stampare a stringa
 		  }
 	  }
 	
