@@ -1,9 +1,0 @@
-package it.akt;
-
-public class Rubrica {
-
-	private contatto [] Contatto;
-	
- 
-	
-}
