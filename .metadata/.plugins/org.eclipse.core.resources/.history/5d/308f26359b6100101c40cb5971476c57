@@ -1,0 +1,19 @@
+import java.util.Random;
+
+public class Giocatore {
+	
+	private Random random = new Random();
+	
+	
+	public int lanciaDado(int facce) {
+		if (facce < 4 || facce > 100 || facce % 2 != 0) {
+			facce = 4;
+		}
+		return random.nextInt(facce) + 1;
+	}
+
+	public int lanciaDado(Dado dado) {
+		return dado.lancia();
+	}
+}
+

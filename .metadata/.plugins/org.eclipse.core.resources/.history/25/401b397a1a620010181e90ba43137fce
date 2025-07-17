@@ -1,0 +1,15 @@
+package it.akt;
+public class Program {
+    public static void main(String[] args) {
+        Giocatore player1 = new Giocatore();
+
+        int lancio1 = player1.lancioDado(3);
+        System.out.println("Lancio con valore 22 facce: " + lancio1);
+
+        Dado d = new Dado(66);
+        int lancio2 = player1.lanciaDado(d);
+        System.out.println("Lancio con oggetto Dado da 66 facce: " + lancio2);
+    }
+}
+
+	

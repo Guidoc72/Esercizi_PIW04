@@ -1,0 +1,14 @@
+Esercizio Rubrica con Array:
+Creare un programma in grado di gestire una rubrica appoggiandosi su un array per la lista dei contatti.
+
+Assegnare in modo corretto i campi alle relative classi Contatto e Rubrica
+Contatto dovrà rappresentare un singolo contatto generico ed essere in grado di generare x contatti
+mentre Rubrica dovrà contenere tutta lista dei contatti creati nel main()
+
+E' necessario gestire i seguenti campi:
+	- Nome
+	- Cognome
+	- Cellulare
+	
+Non è necessario in questa versione usare Scanner per interagire con l'utente. 
+Potete istanziare direttamente tutti gli elementi necessari nel main(). 

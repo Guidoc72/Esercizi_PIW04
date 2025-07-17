@@ -1,0 +1,28 @@
+import java.util.Random;
+
+public class Dado {
+ 
+	private int facce;
+	private Random random = new Random();
+	
+	
+	public Dado(int facce) {
+		if (facce < 4 || facce > 100 || facce % 2 != 0) {
+			facce = 4;
+			this.facce = 4;
+		} else {
+			this.facce = facce;
+			{
+		}
+			
+		 public int getFacce() {
+			 return facce;
+			 
+		 }
+	public int lancia() {
+		return random.nextInt(facce) + 1;
+	}
+	
+	}
+	}
+}
