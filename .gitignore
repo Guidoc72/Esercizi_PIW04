@@ -1,1 +1,20 @@
 /.metadata/
+# Eclipse Project files
+.project
+.classpath
+.settings/
+
+# Java compiled output
+*.class
+bin/
+target/
+
+# IntelliJ IDEA files (if you or students might use it)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
