@@ -1,0 +1,40 @@
+Esercizi sulle collezioni
+============================
+
+01) List (ArrayList) Creare una lista di nomi, aggiungere elementi, rimuovere elementi e stamparli.
+		Crea un ArrayList di String chiamato nomiStudenti.
+		Aggiungi i seguenti nomi alla lista: "Alice", "Bob", "Charlie", "Alice".
+		Stampa tutti i nomi presenti nella lista.
+		Rimuovi la prima occorrenza di "Alice" dalla lista.
+		Stampa nuovamente la lista per vedere il cambiamento.
+		Verifica se "Bob" è presente nella lista e stampa un messaggio che lo comunichi all'utente.
+		Stampa la dimensione attuale della lista.
+		
+02)	Set (HashSet) Creare un set di numeri interi.
+		Crea un HashSet di Integer chiamato numeriUnici.
+		Aggiungi i seguenti numeri al set: 10, 20, 10, 30, 40, 20.
+		Stampa tutti i numeri presenti nel set. Cosa noti riguardo i duplicati?
+		Verifica se il numero 30 è presente nel set.
+		Rimuovi il numero 40 dal set.
+		Stampa il set dopo la rimozione.
+		Svuota tutto il set.
+		Controlla se il set è vuoto.
+
+03) Map (HashMap) Creare una mappa per associare nomi di città alle loro popolazioni stimate.
+		Crea un HashMap con nome della città e relativi valori della popolazione.
+		Aggiungi le seguenti coppie chiave-valore:
+			"Roma": 	2.800.000
+			"Milano": 	1.400.000
+			"Napoli": 	  900.000
+		Stampa la popolazione di "Roma".
+		Aggiungi una nuova città: "Firenze" con popolazione 380.000.
+		Aggiorna la popolazione di "Milano" a 1.500.000.
+		Stampa tutte le città e le loro popolazioni (sia chiavi che valori).
+		Verifica se la mappa contiene la chiave "Napoli".
+		Stampa le città con popolazione superiore a 1.000.000
+		Rimuovi la città "Napoli" dalla mappa.
+		Stampa la mappa completa dopo la rimozione.
+
+ 
+
+

@@ -1,0 +1,15 @@
+Esercizio di modellazione della classe Prodotto
+==================================================
+
+Creare una classe Prodotto con i campi (nome, categoria e prezzo) dei tipi corretti.
+Creare tutti i componenti necessari nella classe
+
+Nel main istanziare 3 o 4 elementi Prodotto per ogni categoria (Informatica, Abbigliamento, Casa)
+Aggiungere gli elementi ad una apposita collezione.
+
+Stampare l'intero contenuto della collezione.
+Calcolare il prezzo medio dei prodotti nella collezione.
+Stampare solo gli elementi con prezzo superiore alla media.
+Scegliere una categoria e stampate solo gli elementi appartenenti alla categoria scelta. 
+
+
