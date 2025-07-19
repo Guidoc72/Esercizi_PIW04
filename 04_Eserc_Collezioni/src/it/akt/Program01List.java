@@ -37,5 +37,5 @@ public class Program01List {
 		//stampo dimensione attuale lista
 		System.out.println("La dimensione della lista è di: " + nomiStudenti.size() + " nomi");
 	}
-
+	
 }
